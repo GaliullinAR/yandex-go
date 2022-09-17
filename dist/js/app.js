@@ -17,6 +17,14 @@ $(function () {
     autoplaySpeed: 5000,
     arrows: false
   });
+  $(".regul-slider__inner").slick({
+    arrows: false,
+    dots: true,
+    slideToScroll: 1,
+    slideToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 5000
+  });
   $('.abonement__slider-info').slick({
     arrows: false,
     dots: true,

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Самокаты - ЯндексGo</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   
@@ -138,6 +138,52 @@
             </div>
           </div>
           <div class="tarification">
+            <div class="tarification__slider">
+              <div class="tarification-mobile__item">
+                <div class="tarif-mobile__box">
+                  <img class="tarification__item-img" src="svg/tarif-item-1.svg" alt="tarif-1">
+                  <div class="tarif__content">
+                    <h5 class="tarif-title">
+                      Тариф Фикс
+                    </h5>
+                    <p class="tarif-text">
+                      Подойдет, если знаете точку назначения.
+                      Цена поездки фиксированная. Покажем её заранее.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tarification-mobile__item">
+                <div class="tarif-mobile__box">
+                  <img class="tarification__item-img" src="svg/tarif-item-2.svg" alt="tarif-1">
+                  <div class="tarif__content">
+                    <h5 class="tarif-title">
+                      Тариф Поминутный
+                    </h5>
+                    <p class="tarif-text">
+                      Для прогулок по городу.
+                      Аренда: от 50 рублей + тариф
+                      от 7 рублей в минуту.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tarification-mobile__item">
+                <div class="tarif-mobile__box">
+                  <div class="tarif__content">
+                    <h5 class="tarif-title">
+                      Опция
+                      «Ещё один самокат»
+                    </h5>
+                    <p class="tarif-text">
+                      Нужна, чтобы забронировать с одного телефона до трёх
+                      самокатов одновременно. Да, и такое бывает
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             <div class="tarification__item tarif-1">
               <img class="tarification__item-img" src="svg/tarif-item-1.svg" alt="tarif-1">
               <div class="tarif__content">
@@ -210,38 +256,68 @@
           </div>
         </section>
         <section class="abonement" >
-          <div class="abonement__content">
-            <div class="abonement__title-box">
-              <h3 class="abonement__title">
-                Абонемент на самокаты в Яндекс Плюсе
-              </h3>
-              <img src="images/abonement-plus.png" alt="abonement-plus">
-            </div>
-            <div class="abonement__content-description">
-              Если вы часто ездите по городу на самокатах, выгоднее будет с абонементом. Его можно купить, только если у вас есть
-              Яндекс Плюс. Абонемент бесплатный на первый месяц, за второй месяц вернём 399 ₽ баллами Плюса. Вот какие бонусы он даёт:
-            </div>
-            <div class="abonement__content-info">
-              <div class="fast-start">
-                <h5 class="fast-start-title">
-                  Бесплатный старт
-                </h5>
-                <p class="fast-start-text">
-                  0₽ в любом тарифе и даже в групповой поездке, вместо 50₽ за каждую поездку
-                </p>
+          <div class="abonement__container">
+            <div class="abonement__content">
+              <div class="abonement__title-box">
+                <h3 class="abonement__title">
+                  Абонемент на самокаты в Яндекс Плюсе
+                </h3>
+                <img src="images/abonement-plus.png" alt="abonement-plus">
               </div>
-              <div class="free-expect">
-                <h5 class="free-expect-title">
-                  Бесплатное ожидание
-                </h5>
-                <p class="free-expect-text">
-                  до 15 минут за 0₽ вместо 3,5₽ за минуту
-                </p>
+              <div class="abonement__content-description">
+                Если вы часто ездите по городу на самокатах, выгоднее будет с абонементом. Его можно купить, только если у вас есть
+                Яндекс Плюс. Абонемент бесплатный на первый месяц, за второй месяц вернём 399 ₽ баллами Плюса. Вот какие бонусы он
+                даёт:
               </div>
-            </div>      
+              <img class="abonement-mobile-img" src="images/abonement-plus.png" alt="abonement-plus">
+              <div class="abonement__content-info">
+                <div class="fast-start">
+                  <h5 class="fast-start-title">
+                    Бесплатный старт
+                  </h5>
+                  <p class="fast-start-text">
+                    0₽ в любом тарифе и даже в групповой поездке, вместо 50₽ за каждую поездку
+                  </p>
+                </div>
+                <div class="free-expect">
+                  <h5 class="free-expect-title">
+                    Бесплатное ожидание
+                  </h5>
+                  <p class="free-expect-text">
+                    до 15 минут за 0₽ вместо 3,5₽ за минуту
+                  </p>
+                </div>
+              </div>
+              <div class="slider__info-box">
+                <div class="abonement__slider-info">
+                  <div class="abonement__slider-item">
+                    <div class="fast-start">
+                      <h5 class="fast-start-title">
+                        Бесплатный старт
+                      </h5>
+                      <p class="fast-start-text">
+                        0₽ в любом тарифе и даже в групповой поездке, вместо 50₽ за каждую поездку
+                      </p>
+                    </div>
+                  </div>
+                  <div class="abonement__slider-item">
+                    <div class="free-expect">
+                      <h5 class="free-expect-title">
+                        Бесплатное ожидание
+                      </h5>
+                      <p class="free-expect-text">
+                        до 15 минут за 0₽ вместо 3,5₽ за минуту
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="abonement-bottom-box">
+            </div>
           </div>
-          <div class="abonement-bottom-box">
-          </div>
+          
         </section>
         <section class="regulations">
           <div class="container">
@@ -249,52 +325,52 @@
               <div class="movie__box">
                 <div class="slider">
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be12814-d4349e064a96e559/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be1a0ee-d835336e9d859e4a/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-43474-17a7be21d43-cfb3f6c623bf8b7b/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a85a07b69-ac436aecf5e86a78/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be31056-f283c899f4d444f0/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be35fa3-95150f9a730d87/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be3bc45-8adfd7acc40bb5f1/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls> 
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-38232-17a7be46e2e-4900b1d2d2696114/720p.mp4">
                     </video>
                   </div>
                   <div class="slider__item">
-                    <video class="slider__item-video">
+                    <video class="slider__item-video" preload="auto" controls>
                       <source src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be4dec5-264e0ac54d3efdd0/720p.mp4">
                     </video>
                   </div>
@@ -302,8 +378,78 @@
               </div>
               <div class="regul">
                 <h3 class="regul__title">
-                  Катайтесь аккуратно
+                  Катайтесь нежно
                 </h3>
+                <div class="regul-slider__inner">
+                  <div class="regul-slider__item">
+                    <div class="regul__item">
+                      <img class="regul__item-img" src="svg/regul-item-1.svg" alt="regul-item">
+                      <h5 class="regul__item-title">
+                        Один человек — один самокат
+                      </h5>
+                      <p class="regul__item-text">
+                        А с опцией «Ещё один самокат» можно забронировать самокат для друга
+                      </p>
+                    </div>
+                  </div>
+                  <div class="regul-slider__item">
+                    <div class="regul__item">
+                      <img class="regul__item-img" src="svg/regul-item-2.svg" alt="regul-item">
+                      <h5 class="regul__item-title">
+                        Лучше наденьте шлем
+                      </h5>
+                      <p class="regul__item-text">
+                        Если только учитесь кататься, не повредит и другая защита
+                      </p>
+                    </div>
+                  </div>
+                  <div class="regul-slider__item">
+                    <div class="regul__item">
+                      <img class="regul__item-img" src="svg/regul-item-3.svg" alt="regul-item">
+                      <h5 class="regul__item-title">
+                        Катайтесь трезвыми
+                      </h5>
+                      <p class="regul__item-text">
+                        Это правило справедливо для любого транспорта
+                      </p>
+                    </div>
+                  </div>
+                  <div class="regul-slider__item">
+                    <div class="regul__item">
+                      <img class="regul__item-img" src="svg/regul-item-4.svg" alt="regul-item">
+                      <h5 class="regul__item-title">
+                        Переходите дорогу только пешком
+                      </h5>
+                      <p class="regul__item-text">
+                        То же с бордюрами и ступеньками
+                      </p>
+                    </div>
+                  </div>
+                  <div class="regul-slider__item">
+                    <div class="regul__item">
+                      <img class="regul__item-img" src="svg/regul-item-5.svg" alt="regul-item">
+                      <h5 class="regul__item-title">
+                        Уступайте пешеходам
+                      </h5>
+                      <p class="regul__item-text">
+                        Вы тоже один из них
+                      </p>
+                    </div>
+                  </div>
+                  <div class="regul-slider__item">
+                    <div class="regul__item">
+                      <img class="regul__item-img" src="svg/regul-item-6.svg" alt="regul-item">
+                      <h5 class="regul__item-title">
+                        Катайтесь
+                        по-взрослому
+                      </h5>
+                      <p class="regul__item-text">
+                        Вы можете взять самокат, если вам уже исполнилось 18 лет
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
                 <div class="regul__inner">
                   <div class="regul__item">
                     <img class="regul__item-img" src="svg/regul-item-1.svg" alt="regul-item">
@@ -399,6 +545,9 @@
                   <div class="position-api__description">
                     Наведите камеру на QR-код для загрузки приложения
                   </div>
+                  <button class="position-api-btn">
+                    Скачать приложение
+                  </button>
                   <img class="position-api-img" src="./svg/qr.svg" alt="qr">
                 </div>
               </div>
