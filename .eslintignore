@@ -1,3 +1,6 @@
 node_modules
-
+dist/js/jquery.min.js
+src/js/jquery.min.js
+dist/js/slick.min.js
+src/js/slick.min.js
 gulpfile.js

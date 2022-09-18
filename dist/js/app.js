@@ -1,13 +1,11 @@
-"use strict";
-
-$(function () {
-  $(".slider").slick({
+$(() => {
+  $('.slider').slick({
     slideToShow: 1,
     slideToScroll: 1,
     arrows: false,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 5000,
   });
   $('.tarification__slider').slick({
     dots: true,
@@ -15,15 +13,15 @@ $(function () {
     slideToScroll: 1,
     autoplay: false,
     autoplaySpeed: 5000,
-    arrows: false
+    arrows: false,
   });
-  $(".regul-slider__inner").slick({
+  $('.regul-slider__inner').slick({
     arrows: false,
     dots: true,
     slideToScroll: 1,
     slideToShow: 1,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 5000,
   });
   $('.abonement__slider-info').slick({
     arrows: false,
@@ -31,6 +29,6 @@ $(function () {
     slideToShow: 1,
     sliderToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 5000,
   });
 });
